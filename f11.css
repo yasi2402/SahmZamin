@@ -1,0 +1,21 @@
+body { margin: 0; padding: 0; font-family: "Dana", sans-serif; background: #fdfdfc; color: #333; line-height: 1.9; }
+
+header { background: linear-gradient(120deg, #e8f4ea, #f9fbf8); padding: 24px 40px; border-bottom: 1px solid #e5ecd9; }
+
+nav a { margin-left: 18px; text-decoration: none; color: #426b43; font-weight: 600; transition: 0.3s; }
+
+nav a:hover { color: #a89352; }
+
+h1, h2, h3 { color: #426b43; }
+
+.section { padding: 60px 12%; }
+
+.btn { padding: 10px 24px; border-radius: 14px; background: rgba(255, 255, 255, 0.25); backdrop-filter: blur(9px); border: 1px solid rgba(255, 255, 255, 0.45); color: #426b43; font-weight: 600; cursor: pointer; transition: 0.3s ease; }
+
+.btn:hover { background: rgba(255, 255, 255, 0.55); border-color: #d8c07b; color: #a89352; }
+
+.card { background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(8px); border-radius: 18px; padding: 26px; border: 1px solid rgba(255, 255, 255, 0.6); box-shadow: 0px 4px 18px rgba(0,0,0,0.04); transition: 0.3s; }
+
+.card:hover { transform: translateY(-4px); box-shadow: 0px 6px 28px rgba(0,0,0,0.07); }
+
+footer { text-align: center; padding: 30px; color: #6b7c6c; font-size: 14px; border-top: 1px solid #e5ecd9; }
